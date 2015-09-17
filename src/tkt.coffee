@@ -15,8 +15,6 @@
 #   animalland
 
 module.exports = (robot) ->
-  robot.respond /hello/, (res) ->
-    res.reply "hello!"
+  robot.respond /^@tkt*/, (res) ->
+    res.reply "Mr.takata!"
 
-  robot.hear /orly/, ->
-    res.send "yarly"
