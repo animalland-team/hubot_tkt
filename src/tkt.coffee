@@ -15,7 +15,7 @@
 #   animalland
 
 module.exports = (robot) ->
-  KEY_SCORE = 'animal'
+  KEY_SCORE = 'hubot-tkt-increment'
   
   getScores = () ->
     return robot.brain.get(KEY_SCORE) or {}
